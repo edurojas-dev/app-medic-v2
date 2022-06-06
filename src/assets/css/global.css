@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+:root {
+  /* Primárias */
+  --primary-0: #483698;
+  /* secundárias */
+  --secondary-0: #ffffff;
+  --secondary-1: #f9f9f9;
+  --secondary-3: #b9b9b9;
+  --secondary-4: #8a8a8a;
+  --secondary-7: #282828;
+
+  /* atenção */
+  --CTA-0: #fbde40;
+  --CTA-1: #ffe766;
+
+  /* suporte */
+  --danger: #dc3545;
+}
+body {
+  background-color: var(--CTA-1);
+}
+label {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0 20px;
+  font-size: 0.9rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid var(--primary-0);
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#badgeReal {
+  background-color: var(--primary-0);
+  color: var(--secondary-0);
+}
+.page-title {
+  font-family: "Comfortaa", cursive;
+  font-size: 2rem;
+  color: var(--primary-0);
+  font-weight: 800;
+}
+
+.nextBtn,
+.btn-cadastrar {
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.25rem;
+  background-color: var(--primary-0);
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  text-align: center;
+  padding: 5px;
+  border-radius: 22px;
+  display: block;
+  text-decoration: none !important;
+}
+
+.btn-cadastrar {
+  background-color: var(--CTA-0);
+  font-weight: 800 !important;
+  border: none !important;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.progress {
+  background-color: var(--secondary-3);
+}
+.progress-bar {
+  background-color: var(--primary-0);
+}
+
+@media (max-width: 1000px) {
+  label {
+    margin-top: 5px;
+    /* font-size: 13px; */
+  }
+}
